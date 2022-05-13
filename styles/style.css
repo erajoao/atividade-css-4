@@ -1,0 +1,91 @@
+/* QUESTÃO 1 */
+
+#divComBackgroundColor {
+    background: #4d58f5dc;
+    height: 200px;
+}
+
+/* UTILIZANDO IMAGEM DE BACKGROUND */
+
+#divComBackgroundImage {
+    background-position: 50% 50%;
+    background-image: url(../img/onepiece.jpg);
+    height: 500px;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+/* UTILIZANDO IMAGEM DE BACKGROUND E DUPLICANDO NO EIXO X */
+#divComBackgroundImagerRepeatX {
+    background-image: url(../img/luffy2.jpg);
+    background-repeat: repeat-x;
+    height: 200px;
+    height: 600px;
+}
+
+#divGradient {
+    height: 400px;
+    background: linear-gradient(to right, #f10a0a00, #49009d);
+    color: black;
+}
+
+/*QUESTÃO 2 */
+
+#divRadius {
+    display: inline-block;
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 250px;
+    height: 250px;
+    color: #271e7c
+}
+
+#divDoted {
+    display: inline-block;
+    border-top: dotted;
+    border-right: dotted;
+    border-bottom: dotted;
+    border-left: dotted;
+    width: 250px;
+    height: 250px;
+    color: #3d1faa
+}
+
+#divComBackgroundColorTransparent {
+    display: inline-block;
+    background: #9595ff;
+    border: 20px solid #4a1cb618;
+    width: 250px;
+    height: 250px;
+}
+
+#divRidge {
+    display: inline-block;
+    border-radius: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    width: 250px;
+    height: 250px;
+    background-color: #1f4baa;
+    color: #1faa3d
+}
+
+/*QUESTÃO 3 */
+
+#divShadow {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 250px;
+    height: 250px;
+    color: #3f1ed1;
+    box-shadow: 10px 5px 5px #fbfbfd, 20px 5px 5px #1f4baa;
+    background-image: url("../img/luffy3.jpg");
+}

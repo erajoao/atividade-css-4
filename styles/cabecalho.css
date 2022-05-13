@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* - ESTILO PARA O CABEÇALHO/MENU - */
+*{
+    text-decoration: none;
+    padding: 0; 
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body {
+    margin: 0;
+}
+
+#menu {
+    display: flex;
+    justify-content:initial;
+    background-color: rgb(70, 74, 133);
+    height: 45px;
+    min-width: 700px;
+    align-items: center;
+    font-size: 17px;
+}
+
+#menu ul {
+    min-width: 615px;
+}
+
+#menu ul li {
+    display: inline;
+    align-items: center;
+
+}
+
+#menu ul li a {
+    /* display: inline-block; */
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    transition: background .3s;
+}
+
+#menu ul li a:hover {
+    background-color: #3428a0;
+}
